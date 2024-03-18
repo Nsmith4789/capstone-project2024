@@ -11,3 +11,7 @@
 #goat {
     background-image: url(newmoney.jpg);
 }
+
+.list-group {
+    float: inline-start;
+}
