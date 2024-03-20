@@ -15,3 +15,13 @@
 .list-group {
     float: inline-start;
 }
+
+#body5 {
+    background-image: url(Western-Conference4.jpg);
+    background-size: 100%;
+}
+
+#east1 {
+    background-image: url(theEAST.jpg);
+    background-size: 100%;
+}
