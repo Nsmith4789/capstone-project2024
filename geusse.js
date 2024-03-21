@@ -1,4 +1,4 @@
-geusseButton.onclick = function () {
+guessButton.onclick = function () {
 
     let hasRings = ringsCheckbox.checked
     let hasJersey23 = jerseyCheckbox.checked
