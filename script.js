@@ -6,3 +6,8 @@ button2.onclick = function () {
 button3.onclick = function () {
     alert("He has also won a total of 6 NBA championships for the Chicago Bulls")
 }
+button4.onclick = function () {
+    alert("Won Multiple Champioships with 2 differnt franchies")
+}
+
+

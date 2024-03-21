@@ -4,36 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="guess.css">
     <title>Document</title>
 </head>
 
-<body>
+<body id="geussBody">
 
-    <h1 class="text-center">Geusse The legend</h1>
+    <marquee>
+        <h1 class="text-center" style="color: white;">Geusse The legend</h1>
+    </marquee>
 
 
-    <input type="checkbox" id="glassesCheckbox">
-    <label for="glassesCheckbox">jersey 23 Box</label><br>
+    <input type="checkbox" id="jerseyCheckbox">
+    <label for="jerseyCheckbox" style="color: white;">jersey 23 Box</label><br>
 
-    <input type="checkbox" id="baldCheckbox">
-    <label for="baldCheckbox">4 Rigs Box</label><br>
+    <input type="checkbox" id="ringsCheckbox">
+    <label for="ringsCheckbox" style="color: white;">4 Rigs Box</label><br>
 
-    <input type="checkbox" id="earringCheckbox">
-    <label for="earringCheckbox">Most Assist Box</label><br>
+    <input type="checkbox" id="assistCheckbox">
+    <label for="earringCheckbox" style="color: white;">Most Assist Box</label><br>
 
-    <input type="checkbox" id="tattooCheckbox">
-    <label for="tattooCheckbox">3 Time DPOY Box</label><br>
+    <input type="checkbox" id="dpoyCheckbox">
+    <label for="dpoyCheckbox" style="color: white;">3 Time DPOY Box</label><br>
     <div id="divA" class="m-5"></div>
 
     <button class="btn btn-primary " id="geusseButton">Geusse Who</button><br>
-    <img src="" alt="GeussWho" id="vacaImg">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <img src="michaeljordan.jpeg" alt="GeussWho" id="vacaImg">
+    <img src="lebronjames.jpeg" alt="lakers">
+    <img src="Rayallen.jpeg" alt="Shuttlesworth">
+    <img src="kareem.jpeg" alt="kareem">
 
     <button id="resetButton">Reset Button</button>
 
-    <script src="script.js"></script>
+    <script src="geusse.js"></script>
 
 </body>
 
