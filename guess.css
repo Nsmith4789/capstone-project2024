@@ -1,0 +1,24 @@
+#card1 {
+    box-shadow: 0 4px 8px 0 rgba(230, 210, 32, 0.591);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float: inline-start;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+#card2 {
+    box-shadow: 0 4px 8px 0 rgba(230, 210, 32, 0.591);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float: inline-end;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}

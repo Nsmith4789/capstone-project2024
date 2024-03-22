@@ -13,30 +13,51 @@
 <body id="guessBody">
 
     <marquee>
-        <h1 class="text-center" style="color: white;">Guess The legend</h1>
+        <h1 class="text-center" style="color: yellow;">Guess The legend</h1>
     </marquee>
 
+    <div class="container">
+        <div class="card w-25" style="background-color: royalblue;" id="card1">
 
-    <input type="checkbox" id="jerseyCheckbox">
-    <label for="jerseyCheckbox" style="color: white;">jersey 23 Box</label><br>
+            <input type="checkbox" id="jerseyCheckbox">
+            <label for="jerseyCheckbox" style="color: white;">jersey 23 Box</label><br>
 
-    <input type="checkbox" id="ringsCheckbox">
-    <label for="ringsCheckbox" style="color: white;">4 Rigs Box</label><br>
+            <input type="checkbox" id="ringsCheckbox">
+            <label for="ringsCheckbox" style="color: white;">1 or More Rigs Box</label><br>
 
-    <input type="checkbox" id="assistCheckbox">
-    <label for="earringCheckbox" style="color: white;">Most Assist Box</label><br>
+            <input type="checkbox" id="assistCheckbox">
+            <label for="earringCheckbox" style="color: white;">Most Assist Box</label><br>
 
-    <input type="checkbox" id="dpoyCheckbox">
-    <label for="dpoyCheckbox" style="color: white;">3 Time DPOY Box</label><br>
-    <div id="divA" class="m-5"></div>
+            <input type="checkbox" id="dpoyCheckbox">
+            <label for="dpoyCheckbox" style="color: white;">3 Time DPOY Box</label><br>
+            <div id="divA" class="m-5"></div>
+            <button class="btn-primary m-1 p-2" id="guessButton">Guess Who</button><br> <button
+                class="btn-danger m-1 p-2" id="resetButton">Reset Button</button>
+        </div>
+    </div>
 
-    <button class="btn btn-primary " id="guessButton">Guess Who</button><br>
-    <img src="michaeljordan.jpeg" alt="GuessWho" id="vacaImg">
-    <img src="lebronjames.jpeg" alt="lakers">
-    <img src="Rayallen.jpeg" alt="Shuttlesworth">
-    <img src="kareem.jpeg" alt="kareem">
 
-    <button id="resetButton">Reset Button</button>
+
+    <img class="z-3 position-absolute p-5 rounded-3" src="michaeljordan.jpeg" alt="GuessWho" id="vacaImg">
+    <img class="z-2 position-absolute p-5 rounded-3" src="lebronjames.jpeg" alt="lakers">
+    <img class="z-1 position-absolute p-5 rounded-3" src="Rayallen.jpeg" alt="Shuttlesworth">
+    <img class="z-0 position-absolute p-5 rounded-3" src="kareem.jpeg" alt="kareem">
+
+
+
+    <div class="container">
+        <div class="card w-25" style="background-color: royalblue;" id="card2">
+            <h1 class="card-title" style="color: white;">The Legends You Have To Guess</h1>
+            <ol class="card-text" style="color: white;">
+                <li>Michael Jordan</li>
+                <li>Lebron James</li>
+                <li>Ray Allen</li>
+                <li>Julius Erving</li>
+            </ol>
+        </div>
+    </div>
+
+
 
     <script src="geusse.js"></script>
 

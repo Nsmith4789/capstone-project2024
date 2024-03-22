@@ -8,24 +8,24 @@ guessButton.onclick = function () {
     let isLebron = hasJersey23 && hasRings && hasAssist && hasDpoy
     let isMike = hasJersey23 && hasRings && !hasAssist && hasDpoy
     let isRay = !hasJersey23 && !hasRings && hasAssist && !hasDpoy
-    let isJulius = !hasJersey23 && hasRings && !hasAssist && !hasDopy
+    let isJulius = !hasJersey23 && hasRings && !hasAssist && !hasDpoy
 
     if (isLebron) {
         alert("Im am Lebron")
         vacaImg.src = "lebronjames.jpeg";
-        geussBody.style.backgroundColor = "purple"
+        guessBody.style.backgroundColor = "purple"
     } else if (isMike) {
         alert("i am Mike")
         vacaImg.src = "michaeljordan.jpeg";
-        geussBody.style.backgroundColor = "red"
+        guessBody.style.backgroundColor = "red"
     } else if (isRay) {
         alert("I am Ray")
         vacaImg.src = "Rayallen.jpeg";
-        geussBody.style.backgroundColor = "green"
+        guessBody.style.backgroundColor = "green"
     } else if (isJulius) {
         alert("I Am Julius")
         vacaImg.src = "DRJ.jpeg";
-        geussBody.style.backgroundColor = "blue"
+        guessBody.style.backgroundColor = "blue"
     } else {
 
         alert("unknown Person")
@@ -40,13 +40,12 @@ let allBoxes = [
 ];
 
 resetButton.onclick = function () {
-    console.log("Legend");
-    ringsCheckbox = false;
-    jerseyCheckbox = false;
-    dpoyCheckbox = false;
-    assistCheckbox = false;
-    let iam = [ringsCheckbox, jerseyCheckbox, dpoyCheckbox, assistCheckbox]
+    let all = allBoxes
     for (let i = 0; i < 4; i++) {
-        allBoxes[i].checked = false
+        all[i].checked = false
+        //guessBody.style.backgroundColor = ""
+        guessBody.style.backgroundImage = "url('passThetorch.jpg')"
+
     }
+    alert("Your Are Right")
 }
